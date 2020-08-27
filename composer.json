@@ -1,0 +1,26 @@
+{
+    "name": "the-coding-owl/upload-helper",
+    "description": "Helper for file uploads in TYPO3",
+    "type": "library",
+    "require": {
+        "typo3/cms-fluid": "^10.4.0",
+        "typo3/cms-extbase": "^10.4.0"
+    },
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Kevin Ditscheid",
+            "email": "kevin@the-coding-owl.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "friendsofphp/php-cs-fixer": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheCodingOwl\\UploadHelper\\": "src/"
+        }
+    }
+}
